@@ -1,4 +1,4 @@
-FROM ubuntu #ubuntu:18.04
+FROM ubuntu:18.04
 MAINTAINER Jules (landojules535@yahoo.fr)
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nginx git
